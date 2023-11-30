@@ -1,0 +1,10 @@
+'': {
+        icon: '',
+        name: '',
+        publisher: '',
+        franchise: '',
+        firstAppearance: '',
+        smashDebut: '',
+        number: '',
+        numberDisplay: ''
+},

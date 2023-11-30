@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="character-data.js"></script>
+    <script defer src="script.js"></script>
+    <title>Brawldle: Super Smash Bros. Wordle</title>
+</head>
+<body>
+    <header>
+        <div class="title">Brawldle</div>
+        <div class="subtitle">The Super Smash Bros. Wordle</div>
+    </header>
+
+    <div class="game">
+        <input type="text" class="guess-search"></input>
+        <table class="game-table">
+            <tr class="table-header"></tr>
+        </table>
+    </div>
+
+    <div class="win-screen">
+        <div class="win-text"></div>
+
+        <div class="win-char">
+            <img class="win-char-icon" src="" alt="">
+            <div class="win-char-name"></div>
+        </div>  
+
+        <div class="number-of-guesses-text"></div>
+        <div class="guesses-graph-title">Your guess summary:</div>
+
+        <div class="guesses-graph-container"></div>
+    </div>
+</body>
+</html>
